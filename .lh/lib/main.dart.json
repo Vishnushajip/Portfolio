@@ -1,0 +1,66 @@
+{
+    "sourceFile": "lib/main.dart",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 12,
+            "patches": [
+                {
+                    "date": 1735567348073,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1735567598320,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,6 @@\n import 'package:flutter/material.dart';\r\n+import 'package:google_fonts/google_fonts.dart';\r\n import 'Landing/Home.dart';\r\n \r\n void main() {\r\n   runApp(MyPortfolioApp());\r\n@@ -15,8 +16,9 @@\n       title: 'Portfolio',\r\n       theme: ThemeData(\r\n         primarySwatch: Colors.blue,\r\n         textTheme: GoogleFonts.poppinsTextTheme(),\r\n+      ),\r\n       home: PortfolioPage(),\r\n     );\r\n   }\r\n }\r\n"
+                },
+                {
+                    "date": 1735567632127,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n import 'package:google_fonts/google_fonts.dart';\r\n import 'Landing/Home.dart';\r\n \r\n void main() {\r\n-  runApp(MyPortfolioApp());\r\n+  runApp(const MyPortfolioApp());\r\n }\r\n \r\n class MyPortfolioApp extends StatelessWidget {\r\n   const MyPortfolioApp({super.key});\r\n@@ -17,15 +17,8 @@\n       theme: ThemeData(\r\n         primarySwatch: Colors.blue,\r\n         textTheme: GoogleFonts.poppinsTextTheme(),\r\n       ),\r\n-      home: PortfolioPage(),\r\n+      home: const PortfolioPage(),\r\n     );\r\n   }\r\n }\r\n-\r\n-\r\n-\r\n-\r\n-\r\n-\r\n-\r\n"
+                },
+                {
+                    "date": 1735567945367,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,5 @@\n import 'package:flutter/material.dart';\r\n-import 'package:google_fonts/google_fonts.dart';\r\n import 'Landing/Home.dart';\r\n \r\n void main() {\r\n   runApp(const MyPortfolioApp());\r\n"
+                },
+                {
+                    "date": 1735567974051,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n void main() {\r\n   runApp(const MyPortfolioApp());\r\n }\r\n \r\n-class MyPortfolioApp extends StatelessWidget {\r\n+class MyPorMyApptfolioApp extends StatelessWidget {\r\n   const MyPortfolioApp({super.key});\r\n \r\n   @override\r\n   Widget build(BuildContext context) {\r\n"
+                },
+                {
+                    "date": 1735567981800,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n void main() {\r\n   runApp(const MyPortfolioApp());\r\n }\r\n \r\n-class MyPorMyApptfolioApp extends StatelessWidget {\r\n+class MyApp extends StatelessWidget {\r\n   const MyPortfolioApp({super.key});\r\n \r\n   @override\r\n   Widget build(BuildContext context) {\r\n"
+                },
+                {
+                    "date": 1735567989132,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,13 +1,13 @@\n import 'package:flutter/material.dart';\r\n import 'Landing/Home.dart';\r\n \r\n void main() {\r\n-  runApp(const MyPortfolioApp());\r\n+  runApp(const MyApp());\r\n }\r\n \r\n class MyApp extends StatelessWidget {\r\n-  const MyPortfolioApp({super.key});\r\n+  const MyApp({super.key});\r\n \r\n   @override\r\n   Widget build(BuildContext context) {\r\n     return MaterialApp(\r\n"
+                },
+                {
+                    "date": 1735568979137,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,6 @@\n import 'package:flutter/material.dart';\r\n+import 'package:google_fonts/google_fonts.dart';\r\n import 'Landing/Home.dart';\r\n \r\n void main() {\r\n   runApp(const MyApp());\r\n@@ -11,9 +12,9 @@\n   @override\r\n   Widget build(BuildContext context) {\r\n     return MaterialApp(\r\n       debugShowCheckedModeBanner: false,\r\n-      title: 'Portfolio',\r\n+      title: 'Vishnu p',\r\n       theme: ThemeData(\r\n         primarySwatch: Colors.blue,\r\n         textTheme: GoogleFonts.poppinsTextTheme(),\r\n       ),\r\n"
+                },
+                {
+                    "date": 1735568985144,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,9 +12,9 @@\n   @override\r\n   Widget build(BuildContext context) {\r\n     return MaterialApp(\r\n       debugShowCheckedModeBanner: false,\r\n-      title: 'Vishnu p',\r\n+      title: 'Vishnu P',\r\n       theme: ThemeData(\r\n         primarySwatch: Colors.blue,\r\n         textTheme: GoogleFonts.poppinsTextTheme(),\r\n       ),\r\n"
+                },
+                {
+                    "date": 1735569835715,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,9 +10,9 @@\n   const MyApp({super.key});\r\n \r\n   @override\r\n   Widget build(BuildContext context) {\r\n-    return MaterialApp(\r\n+    return MaterialApp(WidgetsFlutterBinding.ensureInitialized();\r\n       debugShowCheckedModeBanner: false,\r\n       title: 'Vishnu P',\r\n       theme: ThemeData(\r\n         primarySwatch: Colors.blue,\r\n"
+                },
+                {
+                    "date": 1735569845494,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,17 +2,18 @@\n import 'package:google_fonts/google_fonts.dart';\r\n import 'Landing/Home.dart';\r\n \r\n void main() {\r\n+  WidgetsFlutterBinding.ensureInitialized();\r\n   runApp(const MyApp());\r\n }\r\n \r\n class MyApp extends StatelessWidget {\r\n   const MyApp({super.key});\r\n \r\n   @override\r\n   Widget build(BuildContext context) {\r\n-    return MaterialApp(WidgetsFlutterBinding.ensureInitialized();\r\n+    return MaterialApp(\r\n       debugShowCheckedModeBanner: false,\r\n       title: 'Vishnu P',\r\n       theme: ThemeData(\r\n         primarySwatch: Colors.blue,\r\n"
+                },
+                {
+                    "date": 1735797454322,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n import 'Landing/Home.dart';\r\n \r\n void main() {\r\n   WidgetsFlutterBinding.ensureInitialized();\r\n-  final\r\n+  final \r\n   runApp(const MyApp());\r\n }\r\n \r\n class MyApp extends StatelessWidget {\r\n"
+                },
+                {
+                    "date": 1735797466872,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n import 'Landing/Home.dart';\r\n \r\n void main() {\r\n   WidgetsFlutterBinding.ensureInitialized();\r\n-  final container = provider\r\n+  final container = providerc\r\n   runApp(const MyApp());\r\n }\r\n \r\n class MyApp extends StatelessWidget {\r\n"
+                }
+            ],
+            "date": 1735567348073,
+            "name": "Commit-0",
+            "content": "import 'package:flutter/material.dart';\r\nimport 'Landing/Home.dart';\r\n\r\nvoid main() {\r\n  runApp(MyPortfolioApp());\r\n}\r\n\r\nclass MyPortfolioApp extends StatelessWidget {\r\n  const MyPortfolioApp({super.key});\r\n\r\n  @override\r\n  Widget build(BuildContext context) {\r\n    return MaterialApp(\r\n      debugShowCheckedModeBanner: false,\r\n      title: 'Portfolio',\r\n      theme: ThemeData(\r\n        primarySwatch: Colors.blue,\r\n        textTheme: GoogleFonts.poppinsTextTheme(),\r\n      home: PortfolioPage(),\r\n    );\r\n  }\r\n}\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n"
+        }
+    ]
+}

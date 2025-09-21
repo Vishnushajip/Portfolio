@@ -1,0 +1,18 @@
+{
+    "sourceFile": "lib/Landing/Card.dart",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1735795898844,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1735795898844,
+            "name": "Commit-0",
+            "content": "import 'package:flutter/material.dart';\r\n\r\nclass DetailCard extends StatelessWidget {\r\n  final String title;\r\n  final String description;\r\n  final IconData icon;\r\n\r\n  const DetailCard({\r\n    super.key,\r\n    required this.title,\r\n    required this.description,\r\n    required this.icon,\r\n  });\r\n\r\n  @override\r\n  Widget build(BuildContext context) {\r\n    return Card(\r\n      elevation: 4,\r\n      child: Padding(\r\n        padding: const EdgeInsets.all(16.0),\r\n        child: Column(\r\n          children: [\r\n            Icon(icon, size: 48, color: Colors.blue),\r\n            const SizedBox(height: 10),\r\n            Text(\r\n              title,\r\n              style: const TextStyle(fontWeight: FontWeight.bold, fontSize: 18),\r\n            ),\r\n            const SizedBox(height: 10),\r\n            Text(\r\n              description,\r\n              textAlign: TextAlign.center,\r\n              style: const TextStyle(color: Colors.grey),\r\n            ),\r\n          ],\r\n        ),\r\n      ),\r\n    );\r\n  }\r\n}\r\n"
+        }
+    ]
+}

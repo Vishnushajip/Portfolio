@@ -1,0 +1,18 @@
+{
+    "sourceFile": "firebase.json",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1735810356739,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1735810356738,
+            "name": "Commit-0",
+            "content": "{\n  \"flutter\": {\n    \"platforms\": {\n      \"dart\": {\n        \"lib/firebase_options.dart\": {\n          \"projectId\": \"vishnu-1bc57\",\n          \"configurations\": {\n            \"web\": \"1:846185520700:web:b2438612392053f6086d39\"\n          }\n        }\n      }\n    }\n  },\n  \"hosting\": {\n    \"public\": \"build/web\",\n    \"ignore\": [\n      \"firebase.json\",\n      \"**/.*\",\n      \"**/node_modules/**\"\n    ],\n    \"rewrites\": [\n      {\n        \"source\": \"**\",\n        \"destination\": \"/index.html\"\n      }\n    ]\n  }\n}\n"
+        }
+    ]
+}
