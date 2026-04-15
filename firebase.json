@@ -4,6 +4,7 @@
       "dart": {
         "lib/firebase_options.dart": {
           "projectId": "vishnu-1bc57",
+          "site": "vishnudev",
           "configurations": {
             "web": "1:846185520700:web:b2438612392053f6086d39"
           }
@@ -12,12 +13,9 @@
     }
   },
   "hosting": {
+    "site": "vishnudev",
     "public": "build/web",
-    "ignore": [
-      "firebase.json",
-      "**/.*",
-      "**/node_modules/**"
-    ],
+    "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
     "rewrites": [
       {
         "source": "**",
