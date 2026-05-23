@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Vishnu',
+      title: 'Vishnu P',
       theme: ThemeData(
         textTheme: TextTheme(
           bodyLarge: GoogleFonts.poppins(decoration: TextDecoration.none),
